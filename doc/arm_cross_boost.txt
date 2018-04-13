@@ -1,6 +1,7 @@
 ————————编译boost1.57.0————————
 
-./bootstrap.sh
+#./bootstrap.sh --prefix=/usr/local/arm-boost
+./bootstrap.sh 
 修改生成的project-config.jam文件：
 
 #using gcc : arm : arm-none-linux-gnueabi-gcc ;
