@@ -5,9 +5,7 @@ CXX = arm-linux-g++
 CXXFLAGS = -Wall -g -static
 INCLUDE = 
 LDFLAGS = -static
-LDPATH = -L/usr/local/arm/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/ \
-		 -L/usr/local/arm/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/lib/gcc/arm-fsl-linux-gnueabi/4.6.2/ \
-		 -L/usr/local/arm/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/arm-fsl-linux-gnueabi/multi-libs/armv7-a/default/lib32
+LDPATH = 
 
 PROGS =	udpcli01 udpserv01
 

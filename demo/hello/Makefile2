@@ -1,6 +1,6 @@
 
 RM = rm -f
-CXX = arm-linux-g++
+CXX = arm-linux-gnueabihf-g++
 CXXFLAGS = -Wall -g -static
 INCLUDES = 
 LDFLAGS =
